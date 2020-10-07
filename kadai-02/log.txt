@@ -1,0 +1,13 @@
+    1  rm -r kadai-1
+    2  vim
+    3  rmdir kadai-02
+    4  mkdir kadai-02
+    5  mv memo.txt kadai-02
+    6  cd kadai-02
+    7  cd ..
+    8  node
+    9  echo 'condole.log('Hello')' >index.js
+   10  node
+   11  cd kadai-02
+   12  log.txt
+   13  history > log.txt
