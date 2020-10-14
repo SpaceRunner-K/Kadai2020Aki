@@ -1,0 +1,17 @@
+    1  mv index.js kadai-02
+    2  mkdir kadai-03
+    3  cd kadai-03
+    4  node
+    5  echo node_history.txt
+    6  vim
+    7  node
+    8  cd ..
+    9  cd kadai-02
+   10  node index.js
+   11  cd kadai-02
+   12  node index.js
+   13  git add .
+   14  git add ..
+   15  history >log_20201014.txt
+   16  git add ..
+   17  history >log_20201014.txt
