@@ -1,0 +1,13 @@
+    1  mkdir kadai-04
+    2  cd kadai-04
+    3  node function.js
+    4  node index.js
+    5  mv built-in_Function.js
+    6  cd ..
+    7  mv built-in_Function.js kadai-04
+    8  cd kadai-04
+    9  node index2.js
+   10  cd ..
+   11  mkdir kadai-05
+   12  cd kadai-04
+   13  history >log.txt
