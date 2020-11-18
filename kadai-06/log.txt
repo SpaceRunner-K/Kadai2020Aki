@@ -1,0 +1,21 @@
+    1  cd kadai-05
+    2  touch index.js
+    3  node index.js
+    4  cd .
+    5  mv kadai-06
+    6  mkdir kadai-06
+    7  rmdir kadai-06
+    8  cd ..
+    9  mkdir kadai-06
+   10  cd kadai-06
+   11  about_JSON.json
+   12  touch about_JSON.json
+   13  touch sample.js
+   14  rn about_JSON.json 1.about_JSON.json
+   15  ren about_JSON.json 1.about_JSON.json
+   16  rename about_JSON.json 1.about_JSON.json
+   17  mv  about_JSON.json 1.about_JSON.json
+   18  history
+   19  history history.log
+   20  histor >log.txt
+   21  history >log.txt
