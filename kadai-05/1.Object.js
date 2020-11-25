@@ -20,15 +20,21 @@ const person ={
     age:35, 
     'has-cart':true
     address:{
-        prefecture: 'Shiga',
-        country:'Japan'
+        prefecture: 'Shiga';
+        country:'Japan';
     }
 }
 
 //呼び出し2種類
 console.log(person.age)
-console.logperson['age'])
+console.log(person['age'])
 //has-catは[]でくくらないとアクセス出来ない
 
 Object.key(cat)//キーのみを配列として取得
 Object.values(cat)//値を配列として取得
+
+const a = {x:1,y: 2}
+const b = a //複製
+b.x = 10
+console.log(b.x)
+console.log(a.x) //値がb.xと値が同期されているので同じになる
