@@ -1,0 +1,9 @@
+    1  cd kadai-06
+    2  node index2.js
+    3  cd ..
+    4  mkdir kadai-07
+    5  cd kadai-07
+    6  touch index.html
+    7  rm
+    8  rm --help
+    9  history >history.log
