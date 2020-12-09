@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <p>おみくじプログラム</p>
+    <button id="omikuji">おみくじを引く</button>
+
+    <script>
+        const omikuji = document.getElementById('omikuji')
+        omikuji.addEventListener('click', () => {
+            const kuji = Math.random()
+            if(kuji>0.9){
+                alert('大吉です')
+            }　else if(kuji>0.5){
+                alert('吉です')
+            } else if(kuji>0.3){
+                alert('凶です')
+            }　else {
+                alert('大凶です')
+            }
+        })
+    </script>
+</body>
+</html>

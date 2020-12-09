@@ -1,0 +1,36 @@
+<html>
+    <head>
+    <meta charset="utf-8"> 
+    <style>
+    /*CSS*/
+    label {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    button {
+             font-size: 24px;
+             color: green;
+             background: lightgreen;
+    }
+    input {
+        font-size: 24px
+    }
+    </style>
+    </head>
+    <body>
+        <label for="data">データの入力</label>
+        <input id="data" type="text" value='123'>
+        <button id="jikkou">実行</button>
+        <script>
+            const input = document.getElementById('data')
+            const button = document.getElementById('jikkou')
+            button.addEventListener('click', ()=> {
+            alert(input.value)            
+            })
+
+            input.addEventListener('forcus', ()=> {console.log('forcus')})
+            input.addEventListener('forcus', ()=> {console.log('forcus')})
+        </script>
+    </body>
+</html>
