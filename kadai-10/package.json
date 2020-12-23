@@ -1,5 +1,5 @@
 {
-  "name": "aaa",
+  "name": "kadai-10",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.44.2",
+    "webpack": "^5.11.0",
     "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "cowsay": "^1.4.0"
   }
 }

@@ -1,1 +1,2 @@
-const cowsay  
+const cowsay = require('cowsay')
+console.log(cowsay.say({text: 'hello'}))
