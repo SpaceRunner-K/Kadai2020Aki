@@ -43,5 +43,5 @@ try {
     JSON.parse(str7)
 } catch (error){
     console.log(error)
-    //JSPNで関数は扱えないため
+    //JSONで関数は扱えないため
     }

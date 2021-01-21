@@ -1,5 +1,5 @@
 //課題 (3-1) 性格診断プログラムを作ってみよう
-const day = parseInt(progress.argv[2])
+const day = parseInt(process.argv[2])
 
 if (day % 3 === 0) {
     console.log('あなたは意外とガッツある性格かも知れません')
